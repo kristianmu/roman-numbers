@@ -2,6 +2,11 @@ public class RomanNumeralsConverter {
     public String toRoman(int decimal) {
         String result = "";
 
+        if(decimal == 10){
+            result = "X";
+            decimal -= 10;
+        }
+
         if(decimal == 9){
             return "IX";
         }

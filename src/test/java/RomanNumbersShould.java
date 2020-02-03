@@ -27,6 +27,7 @@ public class RomanNumbersShould {
             "7,VII",
             "8,VIII",
             "9,IX",
+            "10,X",
     })
     public void convert_decimals_to_roman_numbers(int decimal, String roman){
         String result = converter.toRoman(decimal);
