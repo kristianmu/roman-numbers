@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RomanNumbersShould" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-03T10:15:39" hostname="MacBook-Pro-de-Kristian.local" time="0.034">
+<testsuite name="RomanNumbersShould" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-03T10:18:09" hostname="MacBook-Pro-de-Kristian.local" time="0.001">
   <properties/>
-  <testcase name="convert_number_two_to_II" classname="RomanNumbersShould" time="0.012"/>
+  <testcase name="convert_number_two_to_II" classname="RomanNumbersShould" time="0.001"/>
   <testcase name="convert_number_three_to_III" classname="RomanNumbersShould" time="0.0"/>
-  <testcase name="convert_number_one_to_I" classname="RomanNumbersShould" time="0.012"/>
+  <testcase name="convert_number_one_to_I" classname="RomanNumbersShould" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
