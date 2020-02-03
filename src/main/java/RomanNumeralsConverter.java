@@ -11,8 +11,8 @@ public class RomanNumeralsConverter {
     public String toRoman(int decimal) {
         String result = "";
 
-        if(decimal >= 10){
-            result = RomanNumber.X.toString();
+        while (decimal >= 10){
+            result += RomanNumber.X.toString();
             decimal -= 10;
         }
 
