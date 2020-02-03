@@ -8,14 +8,11 @@ public class RomanNumeralsConverter {
             return "IV";
         }
 
-        if(decimal == 3){
-            return "III";
+        String result = "";
+        for (int i = decimal; i > 0; i--) {
+             result += "I";
         }
 
-        if (decimal == 2) {
-            return "II";
-        }
-
-        return "I";
+        return result;
     }
 }
