@@ -1,8 +1,12 @@
+import junitparams.JUnitParamsRunner;
+import junitparams.Parameters;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
+@RunWith(JUnitParamsRunner.class)
 public class RomanNumbersShould {
 
     private RomanNumeralsConverter converter;
@@ -13,53 +17,20 @@ public class RomanNumbersShould {
     }
 
     @Test
-    public void convert_number_one_to_I(){
-        String result = converter.toRoman(1);
+    @Parameters({
+            "1,I",
+            "2,II",
+            "3,III",
+            "4,IV",
+            "5,V",
+            "6,VI",
+            "7,VII",
+            "8,VIII",
+    })
+    public void convert_decimals_to_roman_numbers(int decimal, String roman){
+        String result = converter.toRoman(decimal);
 
-        assertEquals( "I", result);
-    }
-
-    @Test
-    public void convert_number_two_to_II() {
-        String result = converter.toRoman(2);
-
-        assertEquals( "II", result);
-    }
-
-    @Test
-    public void convert_number_three_to_III() {
-        String result = converter.toRoman(3);
-
-        assertEquals( "III", result);
-    }
-
-    @Test
-    public void convert_number_four_to_IV() {
-        String result = converter.toRoman(4);
-
-        assertEquals( "IV", result);
-    }
-
-
-    @Test
-    public void convert_number_5_to_V() {
-        String result = converter.toRoman(5);
-
-        assertEquals( "V", result);
-    }
-
-    @Test
-    public void convert_number_6_to_VI() {
-        String result = converter.toRoman(6);
-
-        assertEquals( "VI", result);
-    }
-
-    @Test
-    public void convert_number_7_to_VI() {
-        String result = converter.toRoman(7);
-
-        assertEquals( "VII", result);
+        assertEquals( roman, result);
     }
 }
 
