@@ -1,14 +1,15 @@
 public class RomanNumeralsConverter {
     public String toRoman(int decimal) {
-        if(decimal == 5){
-            return "V";
+        String result = "";
+        if(decimal >= 5){
+            result = "V";
+            decimal -= 5;
         }
 
         if(decimal == 4){
             return "IV";
         }
 
-        String result = "";
         for (int i = decimal; i > 0; i--) {
              result += "I";
         }
