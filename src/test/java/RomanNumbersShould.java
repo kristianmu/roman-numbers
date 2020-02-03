@@ -47,5 +47,12 @@ public class RomanNumbersShould {
 
         assertEquals( "V", result);
     }
+
+    @Test
+    public void convert_number_6_to_VI() {
+        String result = converter.toRoman(6);
+
+        assertEquals( "VI", result);
+    }
 }
 
