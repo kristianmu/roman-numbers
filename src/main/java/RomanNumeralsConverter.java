@@ -17,7 +17,8 @@ public class RomanNumeralsConverter {
         }
 
         if(decimal == 4){
-            return "IV";
+            result += "IV";
+            decimal -= 4;
         }
 
         for (int i = decimal; i > 0; i--) {
