@@ -1,6 +1,7 @@
 public class RomanNumeralsConverter {
 
     public enum RomanNumber {
+        L,
         X,
         IX,
         V,
@@ -10,6 +11,11 @@ public class RomanNumeralsConverter {
 
     public String toRoman(int decimal) {
         String result = "";
+
+        while (decimal >= 50){
+            result += RomanNumber.L.toString();
+            decimal -= 50;
+        }
 
         while (decimal >= 10){
             result += RomanNumber.X.toString();
