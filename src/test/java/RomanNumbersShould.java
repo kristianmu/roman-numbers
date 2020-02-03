@@ -38,6 +38,7 @@ public class RomanNumbersShould {
             "30,XXX",
             "50,L",
             "60,LX",
+            "90,CX",
             "100,C",
             "110,CX",
             "113,CXIII",
