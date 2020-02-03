@@ -10,7 +10,7 @@ public class RomanNumbersShould {
 
         String result = romanNumeralsConverter.toRoman(1);
 
-        assertEquals(result, "I");
+        assertEquals( "I", result);
     }
 
     @Test
@@ -19,7 +19,16 @@ public class RomanNumbersShould {
 
         String result = romanNumeralsConverter.toRoman(2);
 
-        assertEquals(result, "II");
+        assertEquals( "II", result);
+    }
+
+    @Test
+    public void convert_number_three_to_III() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        String result = romanNumeralsConverter.toRoman(3);
+
+        assertEquals( "III", result);
     }
 }
 
