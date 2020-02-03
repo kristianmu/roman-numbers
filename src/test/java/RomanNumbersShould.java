@@ -33,6 +33,9 @@ public class RomanNumbersShould {
             "15,XV",
             "16,XVI",
             "20,XX",
+            "23,XXIII",
+            "26,XXVI",
+            "30,XXX",
     })
     public void convert_decimals_to_roman_numbers(int decimal, String roman){
         String result = converter.toRoman(decimal);
