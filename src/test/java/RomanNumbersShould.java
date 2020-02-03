@@ -30,6 +30,7 @@ public class RomanNumbersShould {
             "10,X",
             "11,XI",
             "14,XIV",
+            "15,XV",
     })
     public void convert_decimals_to_roman_numbers(int decimal, String roman){
         String result = converter.toRoman(decimal);
