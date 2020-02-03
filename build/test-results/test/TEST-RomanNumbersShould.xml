@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RomanNumbersShould" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-03T10:43:40" hostname="MacBook-Pro-de-Kristian.local" time="0.005">
+<testsuite name="RomanNumbersShould" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-03T10:46:07" hostname="MacBook-Pro-de-Kristian.local" time="0.006">
   <properties/>
-  <testcase name="convert_number_two_to_II" classname="RomanNumbersShould" time="0.001"/>
-  <testcase name="convert_number_5_to_V" classname="RomanNumbersShould" time="0.0"/>
-  <testcase name="convert_number_three_to_III" classname="RomanNumbersShould" time="0.0"/>
-  <testcase name="convert_number_6_to_VI" classname="RomanNumbersShould" time="0.001"/>
-  <testcase name="convert_number_four_to_IV" classname="RomanNumbersShould" time="0.0"/>
-  <testcase name="convert_number_one_to_I" classname="RomanNumbersShould" time="0.001"/>
+  <testcase name="convert_number_7_to_VI" classname="RomanNumbersShould" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
