@@ -39,6 +39,8 @@ public class RomanNumbersShould {
             "50,L",
             "60,LX",
             "100,C",
+            "110,CX",
+            "113,CXIII",
     })
     public void convert_decimals_to_roman_numbers(int decimal, String roman){
         String result = converter.toRoman(decimal);
