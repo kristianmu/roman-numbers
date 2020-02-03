@@ -32,5 +32,12 @@ public class RomanNumbersShould {
 
         assertEquals( "III", result);
     }
+
+    @Test
+    public void convert_number_four_to_IV() {
+        String result = converter.toRoman(4);
+
+        assertEquals( "IV", result);
+    }
 }
 
